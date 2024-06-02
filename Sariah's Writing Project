@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sariah Thompson</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sariah Thompson</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#get-to-know-me">Get to Know Me</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#poems">Poems</a></li>
+                <li><a href="#upcoming-works">Upcoming Works</a></li>
+                <li><a href="#contact">Contact Info</a></li>
+                <li><a href="#socials">Socials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Website</h2>
+        <p>A place for my books, poems, and updates on upcoming works.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>People my age and specifically in my generation are too focused on the negative distractions out there in the world and often neglect this once cherished pastime: reading. Now you'll hear: Oh, reading is stupid. Hopefully, my stories grasp some interest, relating to all teens and young people around the world.</p>
+    </section>
+
+    <section id="get-to-know-me">
+        <h2>Get to Know Me</h2>
+        <p>I've been writing ever since I was 9 years old...</p>
+    </section>
+
+    <section id="books">
+        <h2>Books</h2>
+        <h3>The Magical Adventures of Ricky and Rakira</h3>
+        <h4>Crystallites</h4>
+        <p>Brought to a faraway kingdom known as Crystella...</p>
+        <a href="https://www.amazon.com/Crystallites-Adventure-Rakira-Sariah-Thompson-ebook/dp/B084D1YD8Y/ref=sr_1_1?crid=E28BGUT1QJ7A&dib=eyJ2IjoiMSJ9.ADC725Gbz6Yh6lwKGU8fKQ.bhIBuUJHE8SiE">Buy Crystallites</a>
+        <h4>Caper Of Jewels</h4>
+        <p>Two robbers pull off a successful heist at King Omri's palace...</p>
+        <a href="https://www.amazon.com/Magical-Adventures-Ricky-Rakira-Jewels-ebook/dp/B0D18N1H5B/ref=sr_1_1?crid=VLCEUF8B0C2M&dib=eyJ2IjoiMSJ9.zoqz2PAZ43tb7dxUPQ4GtQ.shhqv7MV_KnOOFqhir82-">Buy Caper Of Jewels</a>
+    </section>
+
+    <section id="poems">
+        <h2>Poems</h2>
+        <h3>Another Day Gone</h3>
+        <p>I wake up... Another day gone...</p>
+        <h3>Glowing</h3>
+        <p>Her paths guide the way... Her light dimming...</p>
+    </section>
+
+    <section id="upcoming-works">
+        <h2>Upcoming Works</h2>
+        <p>Don't worry, I'm creating books for teens too!... Horror projects...</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Info</h2>
+        <p>Email: sariahwrite@gmail.com</p>
+    </section>
+
+    <section id="socials">
+        <h2>Socials</h2>
+        <p>YouTube: <a href="https://www.youtube.com/channel/UCEDcdJjPtxbMFj7FQ5UPYWw">UCEDcdJjPtxbMFj7FQ5UPYWw</a></p>
+        <p>Kindle Vella: <a href="https://kdp.amazon.com/kindle-vella/story-details/06HV29MV3B8">Kindle Vella Profile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sariah Thompson. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+body {
+    background-color: #2C3E50; /* Midnight color */
+    color: #C0392B; /* Maroon color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #34495E;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #ECF0F1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #ECF0F1;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2em;
+    margin: 2em 0;
+}
+
+section#home {
+    background-color: #C0392B;
+    color: #ECF0F1;
+    text-align: center;
+}
+
+footer {
+    background-color: #34495E;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
